@@ -1,0 +1,5 @@
+first = input("Hey, what's your first name? : ")
+first = first.strip()
+last = input("And your last name? : ")
+last = last.strip()
+print("Well, pleased to meet you, " + first + ' ' + last)

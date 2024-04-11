@@ -17,6 +17,6 @@ if(ft_checknum(num1) & ft_checknum(num2)) :
 	if (num2 != 0):
 		ans = [num1 + num2, num1 - num2, round(num1 / num2), num1 * num2]
 	else:
-		ans = [num1 + num2, num1 - num2, "Not a number", num1 * num2]
+		ans = [num1 + num2, num1 - num2, "Not defined", num1 * num2]
 	for x in symbol:
 		print(num1,x,num2,"=",ans[symbol.index(x)])
